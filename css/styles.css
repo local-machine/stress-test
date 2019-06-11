@@ -1,6 +1,21 @@
-#work-responses {
+#warning-responses {
   display: none;
 }
-#fun-responses {
+#symptoms-responses {
+  display: none;
+}
+#strategy-responses {
+  display: none;
+}
+
+#high-result {
+  display: none;
+}
+
+#medium-result {
+  display: none;
+}
+
+#low-result {
   display: none;
 }

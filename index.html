@@ -10,50 +10,72 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h2>Transportation Survey</h2>
+        <h2>Free Stress Test</h2>
       </div>
-      <form id="transportation_survey">
+      <form id="stress_survey">
         <div class="form-group">
-          <p>In the past year, I have used the following modes of transportation to travel to work or school:</p>
-          <input type="checkbox" name="work-transportation" value="bike"> Riding a bike.<br>
-          <input type="checkbox" name="work-transportation" value="car">Driving a car.<br>
-          <input type="checkbox" name="work-transportation" value="carpool">Carpooling with others.<br>
-          <input type="checkbox" name="work-transportation" value="walk">Walking.<br>
-          <input type="checkbox" name="work-transportation" value="bus">Riding the bus.<br>
-          <input type="checkbox" name="work-transportation" value="train">Riding the train.<br>
-          <input type="checkbox" name="work-transportation" value="streetcar">Riding the streetcar.<br>
-          <input type="checkbox" name="work-transportation" value="taxi">Taking a taxi.<br>
-          <input type="checkbox" name="work-transportation" value="rideshare">Using a rideshare service like Lyft or Uber.<br>
-          <input type="checkbox" name="work-transportation" value="skateboard">Skateboarding.<br>
-          <input type="checkbox" name="work-transportation" value="rollerblade">Rollerblading.<br>
-          <input type="checkbox" name="work-transportation" value="scooter">Riding a scooter.<br>
-          <input type="checkbox" name="work-transportation" value="other">Another mode of transportation not listed here.<br>
+          <p>In the past week, have you experienced any of the following warning signs: </p>
+          <input type="checkbox" name="warning" value="sleep"> Loss of Sleep<br>
+          <input type="checkbox" name="warning" value="crying">Crying a lot<br>
+          <input type="checkbox" name="warning" value="headaches">Headaches<br>
+          <input type="checkbox" name="warning" value="energy">Low Energy<br>
+          <input type="checkbox" name="warning" value="aches">Aches and Pains<br>
+          <input type="checkbox" name="warning" value="jaw">Clenched Jaw<br>
         </div>
+          <div class="form-group">
+          <p>In the past week, have you experienced any of the following physical symptoms: </p>
+          <input type="checkbox" name="symptoms" value="worry">Constant Worrying<br>
+          <input type="checkbox" name="symptoms" value="thoughts">Racing Thoughts<br>
+          <input type="checkbox" name="symptoms" value="focus">Inability to Focus<br>
+          <input type="checkbox" name="symptoms" value="appetite">Changes in Appetite.<br>
+          <input type="checkbox" name="symptoms" value="skin">Skin Problems<br>
+          <input type="checkbox" name="symptoms" value="libido">Loss of sexual desire and/or ability<br>
+        </div>
+          <input type="checkbox" name="symptoms" value="procrastinating">Procrastinating and avoiding responsibilities<br>
         <div class="form-group">
-          <p>In the past year, I have used the following modes of transportation to travel to other activities and events:</p>
-          <input type="checkbox" name="fun-transportation" value="bike"> Riding a bike.<br>
-          <input type="checkbox" name="fun-transportation" value="car">Driving a car.<br>
-          <input type="checkbox" name="fun-transportation" value="carpool">Carpooling with others.<br>
-          <input type="checkbox" name="fun-transportation" value="walk">Walking.<br>
-          <input type="checkbox" name="fun-transportation" value="bus">Riding the bus.<br>
-          <input type="checkbox" name="fun-transportation" value="train">Riding the train.<br>
-          <input type="checkbox" name="fun-transportation" value="streetcar">Riding the streetcar.<br>
-          <input type="checkbox" name="fun-transportation" value="taxi">Taking a taxi.<br>
-          <input type="checkbox" name="fun-transportation" value="rideshare">Using a rideshare service like Lyft or Uber.<br>
-          <input type="checkbox" name="fun-transportation" value="skateboard">Skateboarding.<br>
-          <input type="checkbox" name="fun-transportation" value="rollerblade">Rollerblading.<br>
-          <input type="checkbox" name="fun-transportation" value="scooter">Riding a scooter.<br>
-          <input type="checkbox" name="fun-transportation" value="other">Another mode of transportation not listed here.<br>
+          <p>In the past week, have you attempted any of the following strategies:</p>
+          <input type="checkbox" name="strategy" value="meditate"> Meditating.<br>
+          <input type="checkbox" name="strategy" value="Exercise">Exercising.<br>
+          <input type="checkbox" name="strategy" value="hydrate">Staying Hydrated.<br>
+          <input type="checkbox" name="strategy" value="walk">Walking.<br>
+          <input type="checkbox" name="strategy" value="breathe">Deep Breaths.<br>
         </div>
        <button type="submit">Submit Survey</button>
       </form>
-      <span id="work-responses">
-        <p><b>You use the following methods of transportation to travel to work or school:</b></p>
+      <span id="warning-responses">
+        <p><b>You have the following warning signs:</b></p>
       </span>
       <br>
-      <span id="fun-responses">
-        <p><b>You use the following methods of transportation to travel to other activities and events:</b></p>
+      <span id="symptoms-responses">
+        <p><b>You have the following stress symptoms:</b></p>
       </span>
+      <span id="strategy-responses">
+        <p><b>You have tried the following strategies:</b>
+
+        </p>
+      </span>
+      <span id="high-result">
+        <p><b>You scored high in stress warning signs and physical symptoms.</b>
+          <p>Click
+          <a href="https://www.webmd.com/balance/stress-management/stress-symptoms-effects_of-stress-on-the-body#1" alt= "Link to stress management webMD">here </a> for more information about stress management
+            </p>
+        </p>
+      </span>
+      <span id="medium-result">
+        <p><b>You scored in the medium range of stress warning signs and physical symptoms.</b>
+          <p>Click
+          <a href="https://www.healthline.com/nutrition/16-ways-relieve-stress-anxiety" alt= "Link to more stress management tips">here </a> for more information about stress management.
+            </p>
+        </p>
+      </span>
+      <span id="low-result">
+        <p><b>You scored in the low range of stress warning signs and physical symptoms. This is great but stress is sneaky.</b>
+          <p>Click
+          <a href="https://www.healthline.com/nutrition/16-ways-relieve-stress-anxiety" alt= "Link to more stress management tips">here </a> for more information about stress management.
+            </p>
+        </p>
+      </span>
+
     </div>
   </body>
 </html>
